@@ -1,6 +1,7 @@
 <?php
 include("../../functions.php");
 $db=dbConnect();
+$bulan = "Januari";
 if($db->connect_errno==0){
 ?>
 
