@@ -32,7 +32,7 @@ if($db->connect_errno==0){
                             <option value="12">Desember</option>
                         </select>
                     </div>
-                <button class="btn btn-primary mt-2" type="submit" name="submit-menu">Submit</button>
+                <button class="btn btn-primary mt-2" type="submit" name="submitBulan" id="submitBulan">Submit</button>
             </div>
         </div>
     </form>
