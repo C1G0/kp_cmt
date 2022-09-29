@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^home$ index.php
+RewriteRule ^absen$ index.php?page-atasan=absen
+RewriteRule ^laporan$ index.php?page-atasan=laporan
+RewriteRule ^riwayat$ index.php?page-atasan=riwayat

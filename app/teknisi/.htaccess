@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^home$ index.php
+RewriteRule ^absen$ home-teknisi.php?page-teknisi=absen
+RewriteRule ^riwayat$ home-teknisi.php?page-teknisi=riwayat
