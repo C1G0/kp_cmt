@@ -37,7 +37,9 @@ if($db->connect_errno==0){
         </div>
     </form>
 
-    <?php $bulan = $db->escape_string($_POST["bulan"]); ?>
+    <?php if (isset($_POST["submitBulan"])) {
+        $bulan = $db->escape_string($_POST["bulan"]);
+        } ?>
 
     <table class="table table-striped rounded table-hover mt-3">
     <thead>
